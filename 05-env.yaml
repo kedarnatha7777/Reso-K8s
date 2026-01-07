@@ -1,0 +1,19 @@
+kind: Pod 
+apiVersion: v1
+
+metadata:
+  name: env-pod 
+
+spec:
+  containers:
+    - name: nginx 
+      image: nginx
+      env:
+        - name: course 
+          value: k8s 
+        - name : trainer 
+          value: kishore 
+        - name: duration
+          value: "12 hrs"
+        - name: why 
+          value: "use inside the container "
