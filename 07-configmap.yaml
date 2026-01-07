@@ -4,6 +4,6 @@ kind: ConfigMap
 metadata: 
   name: nginx-config 
   data:
-    course: devops with AWS 
-    trainer: siva kumar 
-    githublink: https://github.com/kedarnatha7777/Reso-K8s
+    course: "devops with AWS"
+    trainer: sivakumar 
+    githublink: "https://github.com/kedarnatha7777/Reso-K8s"
