@@ -1,0 +1,30 @@
+Kbectl get ns 
+Kbectl get namespace 
+Kbectl describe namespace 
+---------
+POD:
+
+ kubectl apply -f POD.yaml
+ kubectl get pod 
+ kubectl describe pod <pod-nginx-01>
+
+ Check th POD ip 
+ 
+
+
+POD: 
+    pod is the smallest deploylable unit in the K*S 
+
+
+POD VS Container 
+
+POD : 
+    conitains : multiple containers 
+    containers inside the POD share the same network & storage 
+
+Container : 
+ 
+    Running instance of the Docker Image 
+
+
+    
