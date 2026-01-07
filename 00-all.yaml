@@ -3,7 +3,7 @@ kind: Pod
 
 metadata: 
   name: all-pods-reso
-  label:
+  labels:
     app: expense
     tier: backend
   annotations:
@@ -20,4 +20,12 @@ spec:
          value: kedar
        - key: password
          value: hello
+        
+      resources:
+        requests: 
+          memory: "64Mi"
+          cpu: "100m"
+        limits: 
+          memory: "64Mi"
+          cpu: "100m"
         
