@@ -16,10 +16,10 @@ spec:
       ports: 
         - containerPort: 80
       env:
-       - key: user 
-         value: kedar
-       - key: password
-         value: hello
+        - key: user 
+          value: kedar
+        - key: password
+          value: hello
         
       resources:
         requests: 
