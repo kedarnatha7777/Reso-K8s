@@ -9,9 +9,9 @@ spec:
     - name: nginx
       image: nginx
       resources:
-        request:
+        requests:
           memory: "64Mi"
           cpu: "100m"
-        limit:
+        limits:
           memory: "64Mi"
           cpu: "100m"
