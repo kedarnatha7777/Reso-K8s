@@ -6,7 +6,7 @@ metadata:
   name: label
   labels:
     trainer: kedar 
-    duration: 12 hrs 
+    duration: "12 hrs" 
     course: K8s 
 
 
