@@ -1,4 +1,4 @@
-Kind: LimitRange
+Kind: Pod
 apiVersion: v1 
 
 metadata: 
