@@ -8,9 +8,8 @@ spec:
     - name: nginx
       image: nginx
       env:
-        - name: course
+        - name: course 
           valueFrom:
-          congigMaKeypRef:
-            name: nginx-config
-            value: course
-        
+            configMapKeyRef:
+              name: nginx-config
+              value: course
