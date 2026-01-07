@@ -1,0 +1,10 @@
+kind: Pod 
+apiVersion: v1
+
+metadata:
+  name: basic-nginx 
+
+spec:
+  containers:
+    - name: basic-nginx
+      image: nginx 
