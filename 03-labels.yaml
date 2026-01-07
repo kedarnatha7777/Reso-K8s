@@ -1,0 +1,16 @@
+kind: Pod
+apiVersion: v1
+
+
+metadata:
+  name: label
+  labels:
+    trainer: kedar 
+    duration: 12 hrs 
+    course: K8s 
+
+
+spec:
+  containers:
+    - name: nginx-label 
+      image: nginx

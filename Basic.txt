@@ -10,7 +10,7 @@ POD:
 
  Check th POD ip 
  
-
+ kubectl exec -it multi-pod -c alms -- bash
 
 POD: 
     pod is the smallest deploylable unit in the K*S 
