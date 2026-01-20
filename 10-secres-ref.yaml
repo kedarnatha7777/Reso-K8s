@@ -6,7 +6,7 @@ spec:
   containers:
     - name: nginx
       image: nginx 
-      secret:
+      env:
         secretRef: 
            name: user-details
         
