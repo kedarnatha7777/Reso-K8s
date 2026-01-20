@@ -1,4 +1,4 @@
-kind:
+kind: Pod
 apiVersion: v1 
 metadata:
   name: all_configmap
