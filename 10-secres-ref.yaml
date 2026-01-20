@@ -7,6 +7,6 @@ spec:
     - name: nginx
       image: nginx 
       envFrom::
-        secretRef: 
+       - secretRef: 
            name: user-details
         
