@@ -1,0 +1,8 @@
+kind: Secret 
+apiVersion: v1
+metadata:
+  name: user-details
+data:
+  username: YWRtaW4K
+  password: YWRtaW5AMTIzNAo=
+  db_password: SGVsbG9AZGIK
