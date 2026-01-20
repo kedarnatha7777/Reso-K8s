@@ -1,0 +1,11 @@
+kind:
+apiVersion: v1 
+metadata:
+  name: all_configmap
+spec:
+  containers:
+    - name:  nginx
+      image: nginx
+      envFrom:
+        - configMapKeyRef:  
+            name: nginx-config
