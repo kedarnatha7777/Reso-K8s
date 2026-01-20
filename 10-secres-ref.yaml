@@ -6,20 +6,6 @@ spec:
   containers:
     - name: nginx
       image: nginx 
-      env:
-        - name: username
-          valueFrom:
-            secretKeyRef:
-              name: user-details
-              value: username
-
-        - name: password
-          valueFrom:
-            secretKeyRef:
-              name: user-details
-              value: password
-        - name: db_password 
-          valueFrom:
-            secretKeyRef:
-              name: user-details
-              value: db_password
+      secret:
+        secretName: user-details
+        
