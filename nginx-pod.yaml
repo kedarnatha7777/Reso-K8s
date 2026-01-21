@@ -1,13 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod 
+  name: nginx-pod
   labels:
-    project: hello-01 
-    tier: web
-    component: frontend 
-    environment: dev-env
+    environment: web 
+    project: expense
+    tier: frontend
+    
 spec:
   containers:
-    - name: nginx
-      image: nginx
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80
